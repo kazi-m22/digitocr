@@ -4,6 +4,6 @@ flask
 pillow
 gunicorn==19.7.1
 imutils
-tensorflow
+tensorflow==2.2.0
 keras
 numpy
