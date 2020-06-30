@@ -37,7 +37,7 @@ class Detector:
         image = numpy.array(imName)
         gray = cv.cvtColor(numpy.array(imName), cv.COLOR_BGR2GRAY)
         gray = cv.GaussianBlur(gray, (7, 7), 0)
-        ret,thresh1 = cv.threshold(gray ,200,255,cv.THRESH_BINARY_INV)
+        ret,thresh1 = cv.threshold(gray ,100,255,cv.THRESH_BINARY_INV)
         # thresh1 = cv.adaptiveThreshold(gray,255,cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.THRESH_BINARY,11,2)
         dilate = cv.dilate(thresh1, None, iterations=2)
         cnts = cv.findContours(dilate.copy(), cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE)
