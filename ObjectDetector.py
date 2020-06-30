@@ -2,8 +2,8 @@ import cv2 as cv
 import numpy
 import imutils
 import tensorflow as tf
-from tf.keras import Sequential
-from tf.keras.layers import Conv2D, MaxPooling2D, Flatten, Dropout, Dense, BatchNormalization
+from tensorflow.keras import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dropout, Dense, BatchNormalization
 
 
 class Detector:
