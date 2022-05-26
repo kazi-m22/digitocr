@@ -5,5 +5,5 @@ pillow
 setuptools==40.3.0
 gunicorn==19.7.1
 imutils
-tensorflow==1.13.1
+tensorflow==2.7.2
 numpy
