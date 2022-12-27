@@ -2,7 +2,7 @@ opencv-python
 numpy
 flask
 pillow
-setuptools==40.3.0
+setuptools==65.5.1
 gunicorn==19.7.1
 imutils
 tensorflow==1.13.1
